@@ -1,14 +1,43 @@
-body {font: "Roboto" 14px #1f2937; background-color: #fff;}
+body {
+    font: "Roboto" 14px #1f2937; 
+    background-color: #fff;
+}
 
-hero, footer {background-color: #1f2937; color: #f9faf8;}
+#hero, #footer {
+    background-color: #1f2937; 
+    color: #f9faf8;
+}
 
-hero-title {font-size: 48px;  font-weight: 900;}
-hero-subtitle, header-link {font-size: 18px;}
-hero-logo-text {font-size:  24px;}
+.hero-title {
+    font-size: 48px;  
+    font-weight: 900;
+}
 
-button:active, cta {background-color: #3882f6;}
+.hero-subtitle, .header-link {
+    font-size: 18px;
+}
 
-info-header {font: #1f2937 36px 900;} /* check if weight works */
+.hero-logo-text {
+    font-size:  24px;
+}
 
-quote { background-color: #e5e7eb; font: #1f2937 36px 900;} /* check if weight works */
+button:active, .cta {
+    background-color: #3882f6;
+}
 
+.info-header {
+    font: #1f2937 36px 900;
+} /* check if weight works */
+
+.quote { 
+    background-color: #e5e7eb; 
+    font: #1f2937 36px 900;
+} /* check if weight works */
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container div {
+    flex: 1;
+}
