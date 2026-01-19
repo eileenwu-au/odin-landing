@@ -1,28 +1,81 @@
 body {
-    font: "Roboto" 14px #1f2937; 
+    margin: 0; 
+    padding: 0; 
+    /* Optional: Sets a width and centers the content on large screens */
+    width: 100%;
+    /* Optional: A max-width keeps content readable on very wide screens */
+    max-width: 1200px; 
+    /* Centers the body block in the viewport (for max-width usage) */
+    margin-left: auto;
+    margin-right: auto; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #1f2937; 
+    background-color: #000;
+}
+
+#content {
+    width: 100%;
     background-color: #fff;
+}
+
+#header {
+    background-color: #1f2937; 
+    color: #f9faf8;
+    padding: 10px 100px;
+}
+.nav-flex-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.nav-link {
+    color: #fff; 
+    text-decoration: none;
+}
+
+#header-logo-txt {
+    font-size:  24px;
 }
 
 #hero, #footer {
     background-color: #1f2937; 
     color: #f9faf8;
+    padding: 0 100px;
+}
+
+#hero {
+    padding: 60px 100px;
 }
 
 .hero-title {
     font-size: 48px;  
     font-weight: 900;
+    margin-bottom: 40px;
 }
 
 .hero-subtitle, .header-link {
     font-size: 18px;
 }
 
-.hero-logo-text {
-    font-size:  24px;
+button {
+    background-color: #3882f6; /* Example background color */
+    border: none; /* Remove default border */
+    color: #fff; /* Text color */
+    padding: 10px 35px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 12px; /* This adds the rounded corners */
 }
 
 button:active, .cta {
     background-color: #3882f6;
+    color: #fff;
 }
 
 .info-header {
@@ -30,12 +83,23 @@ button:active, .cta {
 } /* check if weight works */
 
 .quote { 
-    background-color: #e5e7eb; 
-    font: #1f2937 36px 900;
-} /* check if weight works */
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 0 100px;
+}
+
+.quote-txt {
+    font: italic 300 36px ;
+}
+
+.quote-by {
+    font-weight: 600;
+    text-align: right;
+}
 
 .flex-container {
     display: flex;
+    align-items: baseline;
 }
 
 .flex-container div {
