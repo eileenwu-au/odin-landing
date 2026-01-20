@@ -14,6 +14,15 @@ body {
     background-color: #000;
 }
 
+.flex-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.flex-container div {
+    flex: 1;
+}
+
 #content {
     width: 100%;
     background-color: #fff;
@@ -47,15 +56,25 @@ body {
 
 #hero {
     padding: 60px 100px;
+    align-items: stretch;
+}
+#hero-txt {
+    margin-right: 10px;
 }
 
-.hero-title {
+#hero-title {
     font-size: 48px;  
     font-weight: 900;
     margin-bottom: 40px;
 }
 
-.hero-subtitle, .header-link {
+#hero-img {
+    background-color: #777;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#hero-subtitle {
     font-size: 18px;
 }
 
@@ -97,11 +116,3 @@ button:active, .cta {
     text-align: right;
 }
 
-.flex-container {
-    display: flex;
-    align-items: baseline;
-}
-
-.flex-container div {
-    flex: 1;
-}
