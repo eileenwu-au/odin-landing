@@ -31,7 +31,7 @@ body {
 #header {
     background-color: #1f2937; 
     color: #f9faf8;
-    padding: 10px 100px;
+    padding: 20px 100px;
 }
 .nav-flex-container {
     display: flex;
@@ -44,8 +44,13 @@ body {
     text-decoration: none;
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+}
+
 #header-logo-txt {
     font-size:  24px;
+    font-weight: 800;
 }
 
 #hero, #footer {
@@ -55,7 +60,7 @@ body {
 }
 
 #hero {
-    padding: 60px 100px;
+    padding: 100px;
     align-items: stretch;
 }
 #hero-txt {
