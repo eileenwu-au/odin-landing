@@ -55,7 +55,7 @@ body {
     text-decoration: underline;
 }
 
-#hero, #footer {
+#hero, #footer-container {
     background-color: #1f2937; 
     color: #f9faf8;
     padding: 0 200px;
@@ -94,7 +94,7 @@ button {
     background-color: #3882f6;
     border: none; 
     color: #fff; 
-    padding: 10px 35px; 
+    padding: 8px 35px; 
     text-align: center; 
     text-decoration: none; 
     display: inline-block;
@@ -105,9 +105,9 @@ button {
     border-radius: 12px; 
 }
 
-button:active, .cta {
-    background-color: #3882f6;
-    color: #fff;
+button:hover, button:active {
+    background-color: #fff;
+    color: #3882f6;
 }
 
 .info-container {
@@ -160,3 +160,40 @@ button:active, .cta {
     text-align: right;
 }
 
+.cta-container {
+    padding: 50px 200px;
+}
+
+.cta-wrap {
+    border-radius: 12px; 
+    background-color: #3882f6; 
+    padding: 20px 80px; 
+    color: #fff;
+}
+
+div.cta-txt-wrap {
+    flex-grow: 5;
+}
+
+.cta-headline {
+    margin-bottom: 0;
+}
+
+.cta-txt {
+    margin-top: 10px;
+}
+
+.cta-btn-wrap {
+    text-align: right;
+}
+
+button.inverted-btn {
+    border: 2px solid #fff; 
+    color: #fff; 
+    margin: 0;
+}
+
+button.inverted-btn:hover, button.inverted-btn:active {
+    background-color: #fff;
+    color: #3882f6;
+}
