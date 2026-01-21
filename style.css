@@ -4,12 +4,12 @@ body {
     /* Optional: Sets a width and centers the content on large screens */
     width: 100%;
     /* Optional: A max-width keeps content readable on very wide screens */
-    max-width: 1200px; 
+    max-width: 1440px; 
     /* Centers the body block in the viewport (for max-width usage) */
     margin-left: auto;
     margin-right: auto; 
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     color: #1f2937; 
     background-color: #000;
 }
@@ -31,8 +31,15 @@ body {
 #header {
     background-color: #1f2937; 
     color: #f9faf8;
-    padding: 20px 100px;
+    padding: 20px 200px;
 }
+
+#header-logo-txt {
+    font-weight: 900;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 .nav-flex-container {
     display: flex;
     justify-content: space-between;
@@ -48,19 +55,14 @@ body {
     text-decoration: underline;
 }
 
-#header-logo-txt {
-    font-size:  24px;
-    font-weight: 800;
-}
-
 #hero, #footer {
     background-color: #1f2937; 
     color: #f9faf8;
-    padding: 0 100px;
+    padding: 0 200px;
 }
 
 #hero {
-    padding: 100px;
+    padding: 100px 200px 120px;
     align-items: stretch;
 }
 #hero-txt {
@@ -70,7 +72,7 @@ body {
 #hero-title {
     font-size: 48px;  
     font-weight: 900;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 #hero-img {
@@ -84,17 +86,18 @@ body {
 }
 
 button {
-    background-color: #3882f6; /* Example background color */
-    border: none; /* Remove default border */
-    color: #fff; /* Text color */
-    padding: 10px 35px; /* Some padding */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Remove underline */
+    background-color: #3882f6;
+    border: none; 
+    color: #fff; 
+    padding: 10px 35px; 
+    text-align: center; 
+    text-decoration: none; 
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 600;
     margin: 4px 2px;
-    cursor: pointer; /* Add a pointer cursor on hover */
-    border-radius: 12px; /* This adds the rounded corners */
+    cursor: pointer; 
+    border-radius: 12px; 
 }
 
 button:active, .cta {
@@ -102,9 +105,32 @@ button:active, .cta {
     color: #fff;
 }
 
+.info-container {
+    padding: 20px 200px 100px;
+    text-align: center;
+}
 .info-header {
-    font: #1f2937 36px 900;
-} /* check if weight works */
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+} 
+.info-col-wrap {
+    gap: 60px;
+    align-items: stretch;
+    margin: 0 100px;
+}
+
+.info-img {
+    height: 150px;
+    width: 100%;
+    border: 5px solid #3882f6;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.info-img-cap {
+    color: #777;
+}
 
 .quote { 
     background-color: #e5e7eb;
