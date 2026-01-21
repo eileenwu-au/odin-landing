@@ -75,10 +75,17 @@ body {
     margin-bottom: 30px;
 }
 
-#hero-img {
+#hero-img-wrap {
     background-color: #777;
     text-align: center;
     margin-left: 10px;
+}
+
+#hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 #hero-subtitle {
